@@ -7,9 +7,11 @@ Durante o processo de homologação você receberá 4 certificados;
 una-os conforme a versão
 
 Para homologação
+
 cat Gateway_hml.cer Intermediate.cer Root.cer > client.cer
 
 Ou para produção
+
 cat Gateway_prd.cer Intermediate.cer Root.cer > client.cer
 
 
