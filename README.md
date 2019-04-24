@@ -3,9 +3,15 @@ Exemplo de integração com a API de pagamentos SafraPay
 
 Gerar certificado
 
-Durante o processo de homologação você receberá 3 certificados; una-os em um único arquivo client.cer.
+Durante o processo de homologação você receberá 4 certificados; 
+una-os conforme a versão
 
+Para homologação
 cat Gateway_hml.cer Intermediate.cer Root.cer > client.cer
+
+Ou para produção
+cat Gateway_prd.cer Intermediate.cer Root.cer > client.cer
+
 
 Depois, una o arquivo CSR com o KEY
 
